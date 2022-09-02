@@ -1,0 +1,8 @@
+[Unit]
+Description=timer for sh-rpi-daemon start delay
+
+[Timer]
+OnBootSec=10min
+
+[Install]
+WantedBy=timers.target
